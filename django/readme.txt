@@ -1,5 +1,5 @@
-Install
--------
+Install Django
+--------------
 
 pip install django
 
@@ -14,4 +14,32 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> 
 
 
+Django Document
+
+https://docs.djangoproject.com/en/1.9/intro/install/
+
+
+Create Website
+--------------
+
+$ django-admin startproject dsite
+
+$ cd dsite
+
+$ python manage.py runserver
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have unapplied migrations; your app may not work properly until they are applied.
+Run 'python manage.py migrate' to apply them.
+
+May 30, 2016 - 15:19:36
+Django version 1.9.6, using settings 'dsite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+Not Found: /
+[30/May/2016 15:19:44] "GET / HTTP/1.1" 200 1767
+Not Found: /favicon.ico
+[30/May/2016 15:19:44] "GET /favicon.ico HTTP/1.1" 404 1935
 
